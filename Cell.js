@@ -1,18 +1,19 @@
 class Cell{
+    #mark
     constructor(){
-        this.mark = 'E'
+        this.#mark = 'E'
     }
     isCellEmpty(){
-        if(this.mark == 'E'){
+        if(this.#mark == 'E'){
             return true
         }
         return false
     } 
     getMark(){
-        return this.mark
+        return this.#mark
     }
     markCell(symbol){
-        this.mark = symbol
+        this.#mark = symbol
     }
 }
 
