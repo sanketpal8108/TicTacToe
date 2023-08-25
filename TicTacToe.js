@@ -1,6 +1,6 @@
 const Game = require("./Game");
 
-let [msg,g1] = Game.newGame('sanket' , 'Shreyash')
+let g1 = Game.newGame('sanket' , 'Shreyash')
 
 //Winning Situation 
 console.log(g1.play(1)); //x
@@ -9,6 +9,7 @@ console.log(g1.play(0));
 console.log(g1.play(4));
 console.log(g1.play(8));
 console.log(g1.play(3));
+
 
 //Draw Situation
 // console.log(g1.play(0)); //x
