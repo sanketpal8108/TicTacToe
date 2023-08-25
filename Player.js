@@ -1,18 +1,16 @@
-//const Board = require("./Board")
+
 const Cell = require("./Cell")
 
 class Player{
-    constructor (name ){
+    constructor (name , symbol ){
         this.name =name
-        this.symbol
+        this.symbol = symbol
         //this.board = new Board()
     }
     getSymbol(){
         return this.symbol
     }
-    setSymbol(symbol){
-        this.symbol=symbol
-    }
+
      
 }
 
